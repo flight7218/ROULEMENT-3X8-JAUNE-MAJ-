@@ -1,6 +1,6 @@
 function generateSchedule() {
   const year = parseInt(document.getElementById("year").value);
-  const cycle = "BRAAARVVVRNNNRRRBBBRAAARRRRRNNNRRRBBBRAAARVVRRNNNRRRBBBRAAARRRRRNNNRRRBBBRAAARVVRRNNNRRRBBBRAAARRRRRNNNRRRBB";
+  const cycle = "BRAAARVVVRNNNRRRBBBRAAARRRRRNNNRRRBBBRAAARVVRRNNNRRRBBBRAAARRRRRNNNRRRBBBRAAARVVRRNNNRRRBBBRAAARVVRRNNNRRRBBBRAAARRRRRNNNRRRBB";
   const cycleLength = cycle.length;  // Longueur du cycle (126 jours)
   
   const startDate = new Date(year, 0, 1); // 1er janvier de l'année choisie
