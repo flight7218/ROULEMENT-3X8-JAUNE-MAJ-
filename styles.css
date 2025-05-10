@@ -1,0 +1,102 @@
+/* Style général */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #FFEB3B; /* Jaune pour le titre */
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #FFEB3B;  /* Jaune */
+  color: black;               /* Texte noir pour contraster */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #FDD835;  /* Jaune plus foncé au survol */
+}
+
+/* Style pour le planning */
+#planning {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 2px solid #FFEB3B;
+}
+
+/* Style pour chaque entrée du planning */
+.planning-entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+  background-color: white; /* Fond blanc par défaut pour les autres positions */
+}
+
+.planning-entry:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.date, .cycle-day {
+  margin: 0 10px;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.cycle-day {
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Style pour les lignes contenant "R" */
+.planning-entry.r-background {
+  background-color: #FFEB3B; /* Jaune pour la position "R" */
+}
+
+
+
+
+
